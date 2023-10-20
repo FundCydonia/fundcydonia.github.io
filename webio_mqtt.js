@@ -18,7 +18,7 @@ var subscriptionTemperaturaDomo3 = "hadeesc/Domo3/temperatura";
 var subscriptionHumedadDomo3 = "hadeesc/Domo3/humedad";
 var subscriptionAireDomo3 = "hadeesc/Domo3/aire";
 
-mqttClient = new Paho.MQTT.Client(wss://91.121.93.94, port, clientId);
+mqttClient = new Paho.MQTT.Client("wss://91.121.93.94", port, clientId);
 mqttClient.onMessageArrived =  MessageArrived;
 mqttClient.onConnectionLost = ConnectionLost;
 Connect();
