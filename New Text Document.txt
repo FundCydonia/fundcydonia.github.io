@@ -1,0 +1,17 @@
+	switch(variable){
+		case "temperatura":
+			displayClass = message.payloadString;
+			console.log("on");
+			break;
+		case "humedad":
+			displayClass = message.payloadString;
+			console.log("off");
+			break;
+		case "aire":
+			displayClass = message.payloadString;
+			console.log("off");
+			break;
+		default:
+			displayClass = "unknown";
+			console.log("unkno");
+	}
